@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Menu</title>
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+        body {
+            background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+            font-family: sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        .established {
+            font-style: italic;
+        }
+
+        h1,
+        h2,
+        p {
+            text-align: center;
+        }
+
+        .menu {
+            width: 80%;
+            background-color: burlywood;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            max-width: 500px;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        hr {
+            height: 2px;
+            background-color: brown;
+            border-color: brown;
+        }
+
+        .bottom-line {
+            margin-top: 25px;
+        }
+
+        h1,
+        h2 {
+            font-family: Impact, serif;
+        }
+
+        .item span {
+            padding:4px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 18px;
+            
+        }
+
+        .price {
+            margin-left:300px;
+        }
+
+        footer {
+            font-size: 14px;
+        }
+
+        .address {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: black;
+        }
+
+        a:visited {
+            color: black;
+        }
+
+        a:hover {
+            color: brown;
+        }
+
+        a:active {
+            color: brown;
+        }
+        td{
+            padding:4px;
+            font-weight: 200;
+            margin-left:10px;
+        }
+    </style>
+</head>
+
+<body>
+        <div class="menu">
+            <main>
+                <h1>CAMPER CAFE</h1>
+                <p class="established">Est. 2020</p>
+                <hr>
+                <section>
+                    <h2>Coffee</h2>
+                    <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon" />
+                    <table>
+                        <tr>
+                            <td> <span class="flavor" >French Vanilla</span></td>
+                            <td> <span class="price">3.00</span></td>
+                        </tr>
+                        <tr>
+                            <td> <span class="flavor">Caramel Macchiato</span></td>
+                            <td> <span class="price">3.75</span></td>
+                        </tr>
+                        <tr>
+                            <td> <span class="flavor">Pumpkin Spice</span>
+                            </td>
+                            <td> <span class="price">3.50</span></td>
+                        </tr>
+                        <tr>
+                            <td> <span class="flavor">Hazelnut</span>
+                                </td>
+                            <td> <span class="price">4.00</span></td>
+                        </tr>
+                        <tr>
+                            <td> <span class="flavor">Mocha</span>
+                                </td>
+                            <td> <span class="price">4.50</span></td>
+                        </tr>
+                    </table>
+                </section>
+                <section>
+                    <h2>Desserts</h2>
+                    <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon" />
+                    <table>
+                        <tr>
+                            <td><span class="dessert">Donut</span></td>
+                            <td> <span class="price" >1.50</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="dessert">Cherry Pie</span></td>
+                            <td> <span class="price">2.75</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="dessert">Cheesecake</span></td>
+                            <td>  <span class="price">3.00</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="dessert">Cinnamon Roll</span></td>
+                            <td> <span class="price">2.50</span></td>
+                        </tr>
+                    </table>
+                </section>
+            </main>
+            <hr class="bottom-line">
+            <footer>
+                <p>
+                    <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
+                </p>
+                <p class="address">123 Free Code Camp Drive</p>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
